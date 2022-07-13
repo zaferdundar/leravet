@@ -5,6 +5,7 @@ const swiper = new Swiper(".mySwiper", {
     centeredSlides: true,
     spaceBetween: 30,
     loop:true,
+    initialSlide: 1,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
