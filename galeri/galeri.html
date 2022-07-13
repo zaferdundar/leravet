@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Galeri - Leravet</title>
@@ -28,97 +32,64 @@
                 <div class="overlay">
                     <div class="inner">
                         <div class="background">
-                            <img src="galeriImgs/sliderImg1.jpeg" class="bg">
-                            <img src="galeriImgs/sliderImg2.jpeg" class="bg">
-                            <img src="galeriImgs/sliderImg3.jpeg" class="bg">
-                            <img src="galeriImgs/sliderImg4.jpeg" class="bg">
-                            <img src="galeriImgs/sliderImg5.jpeg" class="bg">
-                            <img src="galeriImgs/sliderImg6.jpeg" class="bg">
-                            <img src="galeriImgs/sliderImg7.jpeg" class="bg">
-                            <img src="galeriImgs/sliderImg8.jpeg" class="bg">
-                            <img src="galeriImgs/sliderImg9.jpeg" class="bg">
-                            <img src="galeriImgs/sliderImg10.jpeg" class="bg">
-                            <img src="galeriImgs/sliderImg11.jpeg" class="bg">
-                            <img src="galeriImgs/sliderImg12.jpeg" class="bg">
-                            <img src="galeriImgs/sliderImg13.jpeg" class="bg">
-                            <img src="galeriImgs/sliderImg14.jpeg" class="bg">
-                            <img src="galeriImgs/sliderImg15.jpeg" class="bg">
-
+                            <img src="galeriImgs/sliderImg1.jpeg" class="bg show" id="bgImgs">
                         </div>
                         <div class="slider-container">
                             <div>
                                 <div>
-                                    <div class="slider">
-                                        <div class="img" id="first">
-                                            <img src="galeriImgs/sliderImg1.jpeg" class="bg">
+                                    <div class="swiper mySwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide" id="first">
+                                                <img src="galeriImgs/sliderImg1.jpeg" class="bg">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="galeriImgs/sliderImg2.jpeg" class="bg">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="galeriImgs/sliderImg3.jpeg" class="bg">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="galeriImgs/sliderImg4.jpeg" class="bg">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="galeriImgs/sliderImg5.jpeg" class="bg">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="galeriImgs/sliderImg6.jpeg" class="bg">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="galeriImgs/sliderImg7.jpeg" class="bg">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="galeriImgs/sliderImg8.jpeg" class="bg">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="galeriImgs/sliderImg9.jpeg" class="bg">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="galeriImgs/sliderImg10.jpeg" class="bg">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="galeriImgs/sliderImg11.jpeg" class="bg">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="galeriImgs/sliderImg12.jpeg" class="bg">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="galeriImgs/sliderImg13.jpeg" class="bg">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="galeriImgs/sliderImg14.jpeg" class="bg">
+                                            </div>
+                                            <div class="swiper-slide" id="last">
+                                                <img src="galeriImgs/sliderImg15.jpeg" class="bg">
+                                            </div>
                                         </div>
-                                        <div class="img">
-                                            <img src="galeriImgs/sliderImg2.jpeg" class="bg">
-                                        </div>
-                                        <div class="img">
-                                            <img src="galeriImgs/sliderImg3.jpeg" class="bg">
-                                        </div>
-                                        <div class="img">
-                                            <img src="galeriImgs/sliderImg4.jpeg" class="bg">
-                                        </div>
-                                        <div class="img">
-                                            <img src="galeriImgs/sliderImg5.jpeg" class="bg">
-                                        </div>
-                                        <div class="img">
-                                            <img src="galeriImgs/sliderImg6.jpeg" class="bg">
-                                        </div>
-                                        <div class="img">
-                                            <img src="galeriImgs/sliderImg7.jpeg" class="bg">
-                                        </div>
-                                        <div class="img">
-                                            <img src="galeriImgs/sliderImg8.jpeg" class="bg">
-                                        </div>
-                                        <div class="img">
-                                            <img src="galeriImgs/sliderImg9.jpeg" class="bg">
-                                        </div>
-                                        <div class="img">
-                                            <img src="galeriImgs/sliderImg10.jpeg" class="bg">
-                                        </div>
-                                        <div class="img">
-                                            <img src="galeriImgs/sliderImg11.jpeg" class="bg">
-                                        </div>
-                                        <div class="img">
-                                            <img src="galeriImgs/sliderImg12.jpeg" class="bg">
-                                        </div>
-                                        <div class="img">
-                                            <img src="galeriImgs/sliderImg13.jpeg" class="bg">
-                                        </div>
-                                        <div class="img">
-                                            <img src="galeriImgs/sliderImg14.jpeg" class="bg">
-                                        </div>
-                                        <div class="img" id="last">
-                                            <img src="galeriImgs/sliderImg15.jpeg" class="bg">
-                                        </div>
+                                        <div class="swiper-pagination"></div>
+
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="content">
-                            <button class="btn" id="prev"><i class="fas fa-chevron-left"></i></button>
-                            <button class="btn" id="next"><i class="fas fa-chevron-right"></i></button>
-                            <ul>
-                                <li class="option" op-index="0"></li>
-                                <li class="option" op-index="1"></li>
-                                <li class="option" op-index="2"></li>
-                                <li class="option" op-index="3"></li>
-                                <li class="option" op-index="4"></li>
-                                <li class="option" op-index="5"></li>
-                                <li class="option" op-index="6"></li>
-                                <li class="option" op-index="7"></li>
-                                <li class="option" op-index="8"></li>
-                                <li class="option" op-index="9"></li>
-                                <li class="option" op-index="10"></li>
-                                <li class="option" op-index="11"></li>
-                                <li class="option" op-index="12"></li>
-                                <li class="option" op-index="13"></li>
-                                <li class="option" op-index="14"></li>
-                                <li class="option" op-index="15"></li>
-                            </ul>
                         </div>
                     </div>
                 </div>
@@ -149,7 +120,9 @@
     </div>
 </div>
 
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script src="script.js"></script>
+
 
 </body>
 </html>
