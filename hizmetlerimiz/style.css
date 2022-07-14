@@ -96,7 +96,7 @@ header {
 }
 
 .inner {
-    width: 1300px;
+    width: 1024px;
 }
 
 
@@ -247,9 +247,11 @@ ul {
 
 .leravetSidebarExp {
     width: 900px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
+    border: 1px solid red
+}
+
+.muayeneExp {
+    margin-top: 3rem;
 }
 
