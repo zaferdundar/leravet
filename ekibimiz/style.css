@@ -285,15 +285,12 @@ ul {
     align-items: center;
     justify-content: center;
     bottom: 60px;
-    font-size: 25px;
+    font-size: 15px;
     position: absolute;
     transition: 1s;
 }
 
-.leravetDoktor:hover .hocaSocial span {
-    transform: translateY(50px);
-    opacity: 0;
-}
+
 
 .hocaSocial li {
     text-decoration: none;
