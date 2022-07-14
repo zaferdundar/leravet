@@ -248,10 +248,18 @@ ul {
 .leravetSidebarExp {
     width: 900px;
     text-align: center;
-    border: 1px solid red
+}
+
+.muayene {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .muayeneExp {
     margin-top: 3rem;
+    font-size: 20px;
+    width: 750px;
 }
+
 
