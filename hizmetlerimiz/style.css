@@ -244,12 +244,12 @@ ul {
 
 .leravetSidebar {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
 }
 
 .leravetSidebarExp {
-    width: 900px;
+    width: 100%;
     text-align: center;
 }
 
@@ -257,14 +257,26 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(227, 220, 218, 0.3);
-
+    background-color: rgba(227, 220, 218, 0.8);
+    padding-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 .muayeneExp {
     margin-top: 2rem;
     font-size: 25px;
     width: 750px;
+}
+
+.someImgs {
+    margin-left: 3rem;
+    border: 1px solid red;
+    max-width: 611px;
+}
+
+.someImgs img {
+    width: 200px;
+    height: 200px;
 }
 
 
