@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 body {
     font-family: "Poppins", sans-serif;
@@ -14,9 +13,9 @@ body {
 .container {
     min-height: 100vh;
     width: 100%;
-    overflow: hidden;
     transform-style: preserve-3d;
     background-image: linear-gradient(135deg, #1f4037 0%, #28313b 74%);
+    overflow: hidden;
 }
 
 .navbar {
@@ -68,11 +67,10 @@ body {
     width: 100%;
     left: 0;
     z-index: 5;
-    overflow: hidden;
     transition: 1s;
     transform-origin: left;
     transform-style: preserve-3d;
-
+    overflow: hidden;
 }
 
 header {
@@ -223,17 +221,21 @@ ul {
     list-style: none;
     text-decoration: none;
     margin: 3px;
-    font-size: 25px;
     transition: 1s;
     border-radius: 10px;
     padding: 10px;
     text-align: center;
+    cursor: pointer;
+}
+
+.leravetSidebarMenu li span {
+    font-size: 15px;
 }
 
 .leravetSidebarMenu {
     background-color: rgba(227, 220, 218, 0.3);
     width: 300px;
-    height: 770px;
+    height: 560px;
     border-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
@@ -245,7 +247,8 @@ ul {
 .leravetSidebar {
     display: flex;
     justify-content: center;
-    margin-left: 1rem;
+    margin-left: 0.4rem;
+
 }
 
 .leravetSidebarExp {
@@ -265,18 +268,81 @@ ul {
 .muayeneExp {
     margin-top: 2rem;
     font-size: 25px;
-    width: 750px;
+    width: auto;
 }
 
 .someImgs {
-    margin-left: 3rem;
-    border: 1px solid red;
     max-width: 611px;
 }
 
 .someImgs img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
 }
+
+@media (max-width: 600px) {
+    .leravetSidebarMenu li span {
+        font-size: 15px ;
+    }
+}
+
+@media (max-width: 600px) {
+    .leravetSidebarMenu  {
+        width: 500px ;
+        height: 410px;
+    }
+}
+
+@media (max-width: 600px) {
+    .leravetSidebar  {
+        width: 380px ;
+        height: 410px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .someImgs  {
+        width: 550px ;
+        margin-left: 0.5rem;
+        border: 1px solid red
+    }
+}
+
+
+@media (max-width: 600px) {
+    .leravetSidebarMenu li  {
+        padding: 2px;
+    }
+}
+
+@media (max-width: 600px) {
+    .leravetSidebarMenu ul  {
+    }
+}
+
+.slider-container {
+    height: 535px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 600px) {
+    .swiper {
+        height: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 

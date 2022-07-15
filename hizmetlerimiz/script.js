@@ -48,6 +48,12 @@ const hizmetlerData = [
 
 const muayeneExpH1 = document.querySelector(".muayeneExp h1")
 const muayeneExpSpan = document.querySelector(".muayeneExp span")
+const sidebarMenu = document.querySelector(".rightSideMenu .bar")
+const container = document.querySelector(".container")
+
+sidebarMenu.addEventListener("click", () => {
+    container.classList.toggle("active")
+})
 
 function descTest (e) {
     if (e.target.innerText === "Muayene") {
@@ -95,3 +101,33 @@ function descTest (e) {
         muayeneExpSpan.innerHTML = hizmetlerData[10].desc
     }
 }
+
+
+
+new Swiper(".mySwiper", {
+    direction: "vertical",
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+    }
+});
+
+
+const x = window.matchMedia("(max-width: 600px)")
+
+
+function myFunction (x) {
+
+    if (x.matches) {
+        new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            direction: "vertical",
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            }
+        });
+    }
+}
+
+myFunction(x)
